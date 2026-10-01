@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.seriesly" name="Seriesly" version="1.4.0" provider-name="DP82">
+<addon id="plugin.video.seriesly" name="Seriesly" version="1.8.0" provider-name="DP82">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary lang="el_GR">Σειρές, εκπομπές, παιδικά και αθλητικά από τα επίσημα sites των ελληνικών καναλιών</summary>
         <summary lang="en_GB">Greek series, shows, kids and sports from the official channel websites</summary>
